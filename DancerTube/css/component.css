@@ -11,6 +11,14 @@
 
 /* Common styles of menus */
 
+.menubar{
+	position: fixed;            /* ヘッダーの固定 */
+	position: absolute;
+    top: 0px;                   /* 位置(上0px) */
+    left: 0px;                  /* 位置(右0px) */
+    width: 100%;                /* 横幅100%　*/
+}
+
 .dl-menuwrapper {
 	width: 100%;
 	max-width: 300px;
@@ -22,15 +30,11 @@
 	perspective-origin: 50% 200%;
 }
 
-.dl-menuwrapper:first-child {
-	margin-right: 100px;
-}
-
 .dl-menuwrapper button {
 	background: #660000;
 	border: none;
-	width: 48px;
-	height: 45px;
+	width: 80px;
+	height: 65px;
 	text-indent: -900em;
 	overflow: hidden;
 	position: relative;
@@ -47,14 +51,14 @@
 .dl-menuwrapper button:after {
 	content: '';
 	position: absolute;
-	width: 68%;
-	height: 5px;
+	width: 60%;
+	height: 8px;
 	background: #fff;
-	top: 10px;
-	left: 16%;
+	top: 13px;
+	left: 20%;
 	box-shadow: 
-		0 10px 0 #fff, 
-		0 20px 0 #fff;
+		0 15px 0 #fff, 
+		0 30px 0 #fff;
 }
 
 .dl-menuwrapper ul {
@@ -72,8 +76,8 @@
 	display: block;
 	position: relative;
 	padding: 15px 20px;
-	font-size: 16px;
-	line-height: 20px;
+	font-size: 22px;
+	line-height: 30px;
 	font-weight: 300;
 	color: #fff;
 	outline: none;
@@ -763,61 +767,4 @@ All this is done for any sub-level being entered.
 
 .no-js .dl-menuwrapper li > a:not(:only-child):after {
 	content: '';
-}
-
-/* Colors for demos */
-
-/* Demo 1 */
-.demo-1 .dl-menuwrapper button {
-	background: #c62860;
-}
-
-.demo-1 .dl-menuwrapper button:hover,
-.demo-1 .dl-menuwrapper button.dl-active,
-.demo-1 .dl-menuwrapper ul {
-	background: #9e1847;
-}
-
-/* Demo 2 */
-.demo-2 .dl-menuwrapper button {
-	background: #e86814;
-}
-
-.demo-2 .dl-menuwrapper button:hover,
-.demo-2 .dl-menuwrapper button.dl-active,
-.demo-2 .dl-menuwrapper ul {
-	background: #D35400;
-}
-
-/* Demo 3 */
-.demo-3 .dl-menuwrapper button {
-	background: #08cbc4;
-}
-
-.demo-3 .dl-menuwrapper button:hover,
-.demo-3 .dl-menuwrapper button.dl-active,
-.demo-3 .dl-menuwrapper ul {
-	background: #00b4ae;
-}
-
-/* Demo 4 */
-.demo-4 .dl-menuwrapper button {
-	background: #90b912;
-}
-
-.demo-4 .dl-menuwrapper button:hover,
-.demo-4 .dl-menuwrapper button.dl-active,
-.demo-4 .dl-menuwrapper ul {
-	background: #79a002;
-}
-
-/* Demo 5 */
-.demo-5 .dl-menuwrapper button {
-	background: #744783;
-}
-
-.demo-5 .dl-menuwrapper button:hover,
-.demo-5 .dl-menuwrapper button.dl-active,
-.demo-5 .dl-menuwrapper ul {
-	background: #643771;
 }
