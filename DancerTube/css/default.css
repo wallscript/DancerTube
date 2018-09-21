@@ -42,11 +42,21 @@ ul#want,#want2 li{
 	margin:20px 20px;
 }
 
+#show{
+	margin: 0px 0px 0px 80px;
+	font-family: arial;
+	font-size: 25px;
+}
 a {
-	color: #ccc;
+	color: #222222;
 	text-decoration: none;
 }
 
 a:hover {
-	color: #fff;
+	color: #005500;
+	font-weight: bold
+}
+
+a:visited {
+	color: #666666;
 }
