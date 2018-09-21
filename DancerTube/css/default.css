@@ -1,14 +1,45 @@
 body, html { font-size: 100%; 	padding: 0; margin: 0;}
 
-body {
+#top{
 	font-family: 'Lato', Calibri, Arial, sans-serif;
-	background-image: url("../images/top002.jpg");
-	background-position: center center;
+	background-image: url('../images/top002.jpg');
 	background-repeat: no-repeat;
-	background-attachment: fixed;
 	background-size: cover;
-	background-color: #FFF;
-	min-height: 800px;
+	background-position: center center;
+	background-attachment: fixed;
+	background-color: transparent;	
+	font-size: 30px;	
+	margin:0;
+	padding:0;
+}
+
+#intro{
+	font-family: 'Lato', Calibri, Arial, sans-serif;
+	background-image: url('../images/白壁.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+	background-color: transparent;	
+	font-size: 30px;	
+	margin:0;
+	padding:0;
+}
+
+
+#intro,#attention{
+	margin: 100px 0px 0px 50px;
+	font-family: arial;
+}
+
+#intro2,#attention2{
+	margin: 0px 0px 0px 80px;
+	font-family: arial;
+	font-size: 25px;
+}
+
+ul#want,#want2 li{
+	margin:20px 20px;
 }
 
 a {
